@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #494d54;
+    color: white;
+
+}
+
+#cantainer{
+    border: 2px solid black;
+    padding: 0px 20px 20px 20px;
+    width: 500px;
+    text-align: center;
+    
+}
+
+ .units{
+    padding-bottom: 20px;
+    font-size: 30px;
+} 
+
+input{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+}
+button{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 40px;
+}
+#display{
+    font-size: 20px;
+}

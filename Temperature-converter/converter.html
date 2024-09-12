@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Tempareture-converter</title>
+        <link rel="stylesheet" href="converter.css">
+    </head>
+    <body>
+        <div id="cantainer">
+            <h1>Tempareture Converter</h1>
+            <div class="units">
+                <label for="t1">Celsius : </label>
+                <input type="number" placeholder="Enter temp.. !">
+                <button onclick="convertFromCelsius()">Convert</button>
+            </div>
+            <div class="units">
+                <label for="for">Fahrenheit : </label>
+                <input type="number" placeholder="Enter temp.. !">
+                <button onclick="convertFromFahrenheit()">Convert</button>
+            </div>
+            <div class="units">
+                <label for="kel">Kelvin : </label>
+                <input type="number" placeholder="Enter temp.. !">
+                <button onclick="convertFromKelvin()">Convert</button>
+            </div>
+            <div id="display" ></div>
+        </div>
+        <script src="converter.js"></script>
+    </body>
+</html>
